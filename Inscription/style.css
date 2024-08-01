@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #596D48;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.first-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.halie-img img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.first-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(212, 212, 212);
+    border-radius: 20px;
+}
+
+.logo-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.logo-title img{
+    width: 40px;
+    margin-right: 10px;
+}
+
+.head-formulaire{
+    margin: 20px 20px;
+    height: 380px;
+}
+
+.body-formulaire{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.body-formulaire .left-input{
+    padding-right: 10px;
+
+}
+.body-formulaire .right-input{
+    padding-left: 10px;
+}
+
+.left-input input,
+.right-input input{
+    padding: 5px;
+    margin: 5px 0;
+    width: 250px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid black;
+}
+
+.left-input .lock:invalid,
+.right-input .lock:invalid{
+    border: 1px solid red;
+}
+
+.btn button{
+    background: #596D48;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    outline: none;
+    margin: 5px 0;
+    cursor: pointer;
+    color: white;
+}
+
+.an-account{
+    padding: 10px 0;
+}
+
+::-webkit-input-placeholder{
+    font-family: 'Poppins', sans-serif;
+}
+
+.copyright{
+    position: absolute;
+    bottom: 10px;
+}
